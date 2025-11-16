@@ -121,19 +121,23 @@ CareerConnect/
 
 ### 🏠 Homepage
 
-*(screenshot.jpg)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/434840bf-510d-4932-867f-1427df32569b" />
+
 
 ### 💼 Job Listings
 
-*(screenshot.jpg)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/5552d301-81a0-49c2-b14a-3aac4ea3b8b3" />
+
 
 ### 📝 Apply Page
 
-*(screenshot.jpg)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/17980735-20f6-4dca-88bb-89b66afc02e7" />
+
 
 ### 📊 Dashboard
 
-*(screenshot.jpg)*
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/75d363f5-db65-40bb-8ddb-0e2c1b9d0cfd" />
+
 
 ---
 

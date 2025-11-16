@@ -1,9 +1,3 @@
-Perfect — I’ll create a **professional, clean, submission-ready `README.md`** for your GitHub repository **CareerConnect_Project**.
-
-Here it is — copy & paste into your GitHub repo:
-
----
-
 # 🌐 CareerConnect — Job Portal Web Application
 
 A fully functional, multi-page web application built using **HTML, CSS, and JavaScript**, covering **all 11 JavaScript practicals** as required in your lab manual.

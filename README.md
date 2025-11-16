@@ -146,7 +146,7 @@ CareerConnect/
 ### **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/CareerConnect_Project.git
+git clone https://github.com/VedantRajekar/CareerConnect_Project.git
 ```
 
 ### **2. Open Any Page**

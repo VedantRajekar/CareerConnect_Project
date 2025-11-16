@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerConnect • Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">CareerConnect</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="apply.html">Apply</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-section">
+      <h2>Your Applications</h2>
+      <p class="lead">Saved applications and preferences are shown here.</p>
+
+      <div id="applications" class="app-list"></div>
+      <div class="controls" style="margin-top:20px;">
+        <button id="clearAll" class="btn btn-ghost">Clear all saved</button>
+        <button id="toggleTheme" class="btn btn-primary">Toggle Theme</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">&copy; 2025 CareerConnect</div></footer>
+  <script type="module" src="js/dashboard.js"></script>
+</body>
+</html>

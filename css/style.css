@@ -1,0 +1,74 @@
+
+/* Professional site stylesheet for CareerConnect */
+
+:root{
+  --bg:#f4f6f8;
+  --card:#ffffff;
+  --text:#2c3e50;
+  --muted:#6b7280;
+  --accent:#1abc9c;
+  --radius:10px;
+  --container:1100px;
+}
+
+*{box-sizing:border-box}
+body{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background:var(--bg); color:var(--text); margin:0; -webkit-font-smoothing:antialiased}
+.container{max-width:var(--container); margin:0 auto; padding:30px}
+
+/* Header */
+.site-header{background:var(--card); box-shadow:0 2px 10px rgba(16,24,40,.06); position:sticky; top:0; z-index:20}
+.site-header .container{display:flex; align-items:center; justify-content:space-between; padding:18px 30px}
+.brand{font-weight:700; font-size:20px; color:var(--text)}
+.site-nav a{margin-left:22px; color:var(--text); text-decoration:none; font-weight:600}
+.site-nav a:hover{color:var(--accent)}
+
+/* Hero */
+.hero{display:flex; gap:30px; align-items:center; padding:40px 0}
+.hero-left{flex:1}
+.hero-right{flex:1; display:flex; justify-content:center}
+.hero h1{font-size:40px; margin-bottom:12px}
+.lead{color:var(--muted); font-size:16px; margin-bottom:18px}
+.hero-image{width:100%; max-width:520px; border-radius:12px; box-shadow:0 12px 30px rgba(16,24,40,.12)}
+
+/* Buttons */
+.btn{display:inline-block; padding:10px 18px; border-radius:8px; text-decoration:none; cursor:pointer; border:1px solid transparent}
+.btn-primary{background:var(--accent); color:white; border-color:transparent; font-weight:700}
+.btn-primary:hover{opacity:0.95}
+.btn-ghost{background:transparent; color:var(--text); border:1px solid rgba(44,62,80,.06)}
+
+/* Cards */
+.card-group{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:18px; margin-top:28px}
+.card{background:var(--card); padding:22px; border-radius:var(--radius); box-shadow:0 8px 24px rgba(16,24,40,.06)}
+.card h3{color:var(--text); margin-bottom:8px}
+
+/* Page sections */
+.page-section{background:transparent; padding:28px 0}
+
+/* Job grid */
+.controls{display:flex; gap:12px; margin:18px 0}
+.controls input, .controls select{padding:10px 12px; border-radius:8px; border:1px solid rgba(16,24,40,.06); flex:1}
+.job-grid{display:grid; gap:18px; grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.job-card{background:var(--card); border-radius:12px; padding:18px; box-shadow:0 6px 20px rgba(16,24,40,.06)}
+.job-card h4{margin-bottom:6px}
+.job-meta{color:var(--muted); font-size:14px; margin-bottom:10px}
+
+/* Forms */
+.form-card{background:var(--card); padding:18px; border-radius:12px; box-shadow:0 6px 20px rgba(16,24,40,.06); display:flex; flex-direction:column; gap:10px; max-width:760px}
+.form-card input,.form-card textarea{padding:10px 12px; border-radius:8px; border:1px solid rgba(16,24,40,.06)}
+.form-actions{display:flex; gap:10px; margin-top:8px}
+
+/* Result */
+.result-card{margin-top:16px; background:#ffffff; padding:14px; border-radius:10px; box-shadow:0 6px 20px rgba(16,24,40,.04)}
+
+/* Dashboard */
+.app-list{display:flex; flex-direction:column; gap:12px}
+.app-item{background:var(--card); padding:14px; border-radius:10px; box-shadow:0 6px 20px rgba(16,24,40,.04)}
+.site-footer{padding:18px 0; color:var(--muted); text-align:center; margin-top:20px}
+
+/* Responsive */
+@media (max-width:900px){
+  .hero{flex-direction:column; text-align:center}
+  .hero-left,.hero-right{width:100%}
+  .site-header .container{padding:14px}
+  .hero h1{font-size:28px}
+}

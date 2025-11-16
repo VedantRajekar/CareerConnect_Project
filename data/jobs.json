@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechSoft",
+    "location": "Mumbai",
+    "salary": "\u20b98-12 LPA",
+    "description": "Build responsive web apps using modern JavaScript."
+  },
+  {
+    "id": 2,
+    "title": "Backend Intern",
+    "company": "DataSolve",
+    "location": "Remote",
+    "salary": "\u20b92-3 LPA",
+    "description": "Assist in API development and database design."
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Engineer",
+    "company": "Nexa",
+    "location": "Bengaluru",
+    "salary": "\u20b910-18 LPA",
+    "description": "Work across frontend and backend to deliver features."
+  },
+  {
+    "id": 4,
+    "title": "Data Analyst",
+    "company": "InsightCorp",
+    "location": "Mumbai",
+    "salary": "\u20b94-6 LPA",
+    "description": "Analyze datasets and prepare dashboards for stakeholders."
+  }
+]

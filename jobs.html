@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerConnect • Jobs</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">CareerConnect</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="apply.html">Apply</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-section">
+      <h2>Available Jobs</h2>
+      <p class="lead">Explore curated job listings from partner companies.</p>
+
+      <div class="controls">
+        <input id="search" placeholder="Search jobs, company, or location" />
+        <select id="filter">
+          <option value="">All locations</option>
+        </select>
+      </div>
+
+      <div id="job-list" class="job-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">&copy; 2025 CareerConnect</div></footer>
+  <script type="module" src="js/jobs.js"></script>
+</body>
+</html>

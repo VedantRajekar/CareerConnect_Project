@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CareerConnect • Apply</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">CareerConnect</div>
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="apply.html">Apply</a>
+        <a href="dashboard.html">Dashboard</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-section">
+      <h2>Application Form</h2>
+      <p class="lead">Paste your raw application text or fill the form below.</p>
+
+      <form id="applyForm" class="form-card">
+        <label for="raw">Paste raw application text</label>
+        <textarea id="raw" rows="6" placeholder="Paste email or resume text..."></textarea>
+
+        <label for="name">Full name</label>
+        <input id="name" type="text" placeholder="Your full name" />
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com" />
+
+        <label for="phone">Phone (optional)</label>
+        <input id="phone" type="tel" placeholder="+91xxxxxxxxxx" />
+
+        <div class="form-actions">
+          <button id="processBtn" class="btn btn-primary" type="button">Process & Save</button>
+          <button id="clearBtn" class="btn btn-ghost" type="button">Clear</button>
+        </div>
+      </form>
+
+      <div id="result" class="result-card" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">&copy; 2025 CareerConnect</div></footer>
+  <script type="module" src="js/apply.js"></script>
+</body>
+</html>
